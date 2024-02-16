@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:move_it/screens/home_screen.dart';
 
 void main() {
   runApp(const ImageApp());
@@ -17,7 +18,7 @@ class ImageApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
-      home: Container(),
+      home: const HomeScreen(),
     );
   }
 }
