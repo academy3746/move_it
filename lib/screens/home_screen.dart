@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
 
     Timer.periodic(
-      const Duration(seconds: 3),
+      const Duration(seconds: 5),
       (timer) async {
         //print('Next Page!');
 
